@@ -1,0 +1,9 @@
+<database name="default" defaultIdMethod="native" namespace="TodoApp\Models">
+    <table name="tasks">
+        <column name="id" type="INTEGER" primaryKey="true" autoIncrement="true" />
+        <column name="title" type="VARCHAR" size="255" required="true" />
+        <column name="description" type="LONGVARCHAR" />
+        <column name="is_completed" type="BOOLEAN" default="false" />
+        <column name="created_at" type="TIMESTAMP" defaultExpr="CURRENT_TIMESTAMP" /> <!-- Use defaultExpr -->
+    </table>
+</database>

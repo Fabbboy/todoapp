@@ -1,0 +1,5 @@
+.vscode/
+vendor/
+storage/todo.db
+propel/generated-classes/
+propel/generated-conf/
