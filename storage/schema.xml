@@ -4,6 +4,6 @@
         <column name="title" type="VARCHAR" size="255" required="true" />
         <column name="description" type="LONGVARCHAR" />
         <column name="is_completed" type="BOOLEAN" default="false" />
-        <column name="created_at" type="TIMESTAMP" defaultExpr="CURRENT_TIMESTAMP" /> <!-- Use defaultExpr -->
+        <column name="created_at" type="TIMESTAMP" defaultExpr="CURRENT_TIMESTAMP" /> 
     </table>
 </database>
